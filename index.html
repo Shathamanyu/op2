@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output-2</title>
+</head>
+<body>
+    <p>Output :</p>
+    <marquee behavior="" direction=""><p id="demo"></p></marquee>
+    <script>
+        var arr = [
+    " htmL",
+    " csS",
+    " javaScrIPT",
+    " react",
+    " angulaR",
+    " nodE",
+    " EXPREss",
+  ];
+  var ar1 = [];
+  for (i in arr) {
+    aa = arr[i].length;
+    if (arr[i][aa - 1] == arr[i][aa - 1].toUpperCase()) {
+      ar1.push(arr[i]);
+    }
+  }
+
+  console.log(ar1);
+      document.getElementById("demo").innerHTML = ar1;
+    </script>
+    
+</body>
+</html>
